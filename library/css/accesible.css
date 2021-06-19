@@ -1,0 +1,209 @@
+.checkbox_accesible{
+     padding-left: 35px;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+.boton_accesible
+{
+    font-size: 22px;
+    color: white;
+    background-color : black;
+
+}
+
+.result {
+    background-color: black;
+    color: yellow;
+    height: 70px;
+    width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+#result {
+    background-color: black;
+    color: yellow;
+    height: 70px;
+    width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+input[type=checkbox]:focus 
+{
+    outline: 3px solid black;
+    height: 8%;
+    width: 8%;
+}
+
+button[type="button"]:focus 
+{
+    outline: 3px solid black;
+    font-size: 150%;
+    height: 10%;
+    width: 12%;
+}
+a.skip-main {
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+a.skip-main:focus {
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow: auto;
+    margin: 0 35%;
+    padding: 5px;
+    font-size: 20px;
+    outline: 3px solid red;
+    text-align: center;
+    z-index: 999;
+}
+:focus
+{
+    outline: 3px solid black;
+    font-size: 200%;
+}
+    
+
+    #txtcontacto:focus{
+    background-color: black;
+    color: yellow;
+    height: 70px;
+    width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+#boxcontacto{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+#boxcontacto:focus{
+    background-color: black;
+    color: yellow;
+    font-size: larger;
+
+}
+
+
+input:focus {
+    background-color: black;
+    color: yellow;
+    display: block;
+    font-size: larger;
+}
+
+label:focus{
+    display: block;
+    background-color: black;
+    color: yellow;
+    height: 75px;
+    width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+legend:focus{
+    background-color: black;
+    color: yellow;
+    height: 70px;
+    width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+
+input::placeholder{
+    background-color: black;
+    color: yellow;
+}
+
+textarea::placeholder {
+    background-color: black;
+    color: yellow;
+}
+
+form {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  position: relative;
+  margin: 0 auto;
+  margin-top: 44px;
+}
+
+#menu-primary {
+    text-align: center;
+}
+
+#masterhead {
+    background-color: grey;
+}
+
+.selectCoin {
+    background-color:black;
+    color: yellow;
+}
+
+.selectCrypto {
+    background-color:black;
+    color: yellow;
+}
+
+.selectOption {
+    background-color: black;
+    color: yellow;
+}
+
+a {
+    background-color: black;
+    color: yellow;
+}
+
+#logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#menu-primary li {
+    padding-left:3px;
+    padding-right:3px;
+    transform-origin: 50% 50%;
+    width: 200px;
+    height: 50px;
+    background-color:black;
+    color: yellow;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-primary li:hover {
+    background: black;
+      transform: scale(1.4) translate(15px, 0) perspective(700px) rotateY(30deg);
+      box-shadow: 0 3px 5px 0 rgba(33, 33, 33, 0.2),
+        -4px 0 5px 0 rgba(33, 33, 33, 0.3), 0 0 0 1px rgba(33, 33, 33, 0.4),
+        inset -5px 0 5px 0 rgba(33, 33, 33, 0.5);
+    }
+  

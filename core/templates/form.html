@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="py-4 text-center">
+        <h2>Envío de nueva consulta</h2>
+    </div>
+
+    <div class="py-4 col-rg-4 col-md-7 col-lg-12">
+        <form action="index.php" method="post" novalidate>
+            <div class="row g-3 w-100">
+                <div class="">
+                    <input type="text" id="name" placeholder="Introduce nombres y apellidos" aria-labelledby="nombre y apellidos" title="Nombre y Apellidos" aria-required="true" tabindex="0">
+                </div>
+
+                <div class="">
+                    <input type="email" id="email" placeholder="Introduce tu email" aria-labelledby="email" title="email" aria-required="true" tabindex="0">
+                </div>
+
+                <div class="">
+                    <input type="text" id="asunto" placeholder="Introduce el asunto de la consulta (indique qué moneda si es sobre una)" aria-labelledby="asunto" title="asunto" aria-required="true" tabindex="0">
+                </div>
+                <div class="">
+                    <textarea type="text" id="description" placeholder="Escribe tu consulta aquí con detalle" rows="4" cols="50" aria-labelledby="consulta" title="consulta" aria-required="true" tabindex="0"></textarea>
+                </div>
+                <input type="hidden" name="accion" value="sendEmail">
+                <button class="boton_accesible" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+<script src="./library/js/cryptoConversor.js"></script>
+<div class="container">
+    <div class="py-4 text-center">
+        <h2>Conversor de criptomonedas</h2>
+    </div>
+
+    <div class="py-4 col-rg-4 col-md-7 col-lg-12">
+        <hr class="my-4">
+        <h6>Elige las monedas de conversión</h6>
+            <div class="row g-3">
+                <div class="col-20">
+                    <label for="cryptoCoin" class="form-label">Elige una criptomoneda</label>
+                    <button onclick="clickCripto();" name="cryptoCoin" id="cryptoCoin" class="selectCrypto" value=""></button>
+                </div>
+
+                <div class="col-20">
+                    <label for="coin" class="form-label">Elige una moneda</label>
+                    <button onclick="clickCoin()" name="" id="coin" class="selectCoin"></button>
+                </div>
+                <hr class="my-4">
+                <div class="col-20">
+                        <label for="options">Elige el tipo de conversión</label>
+                        <button onclick="clickOption()" name="" id="options" class="selectOption"></button>
+                </div>
+                <div class="col-20">
+                    <label for="cantity" class="form-label" value="1">Introduce una cantidad</label>
+                    <input type="number" id="cantity" placeholder="Introduce una cantidad">
+                    <div class="invalid-feedback">
+                        Se ha introducido una cantidad inválida
+                    </div>
+                </div>
+                <hr class="my-4">
+                <button id="conversionButton" class="converter boton_accesible">Convertir</button>
+                <p id="result"></p>
+            </div>
+    </div>
+</div>
